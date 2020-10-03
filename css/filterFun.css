@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  font-family: monospace;
+  background-color: silver;
+}
+
+label {
+  color: green;
+  font-weight: bold;
+  background-color: yellow;
+  font-size: 15px;
+}
+
+#can {
+  width: 600px;
+  outline: gray 3px solid;
+}
+
+#can1 {
+  width: 600px;
+  outline: gray 3px solid;
+}
+
+h1 {
+  color: green;
+  background-color: yellow;
+}
+
+canvas {
+  margin: 10px;
+}

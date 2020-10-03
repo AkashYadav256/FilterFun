@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/filterFun.css" type="text/css">
+    <title>Image Filter</title>
+  </head>
+  <body>
+    <p>
+    <h1>Filter Fun</h1>
+    </p>
+    <p>
+      <label for="can">Original Image</label>
+    <canvas id="can"></canvas>
+      <canvas id="can1"></canvas>
+      <label for="can1">Altered Image</label>
+    </p>
+  <p>
+    <label for="fip">Load Image:</label>
+    <input type="file" id="fip" multiple="false" accept="image/*" onchange="upload()">
+  </p>
+  <p>
+    <h2>Choose Filter:</h2>
+  <input type="button" value="Grayscale" onclick="gray()">
+  <input type="button" value="Red" onclick="red()">
+  <input type="button" value="Blur" onclick="blurIt()">
+  <input type="button" value="Tricolor Shade" onclick="rBow()">
+  <input type="button" value="Fade" onclick="fadeIt()">
+  <input type="button" value="Border" onclick="border()">
+  <input type="color" onchange="cpick()" id="cpick">
+  <label for="cpick">Color of border</label>
+</p>
+<p>
+<input type="button" value="Remove Image" onclick="reset()">
+</p>
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<script src="js/filterFun.js" type="text/javascript"></script>
+  </body>
+</html>
